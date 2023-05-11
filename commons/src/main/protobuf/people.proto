@@ -1,5 +1,5 @@
 syntax = "proto3";
-option java_package = "me.fengfshao.protobuf.pb3";
+option java_package = "me.tanpp.protobuf.pb3";
 option java_outer_classname = "PeopleProto";
 
 message House{

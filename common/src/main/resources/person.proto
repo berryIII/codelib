@@ -29,21 +29,3 @@ message Person {
   uint64 scene_updata_time = 24; // 更新时间,ms
   string eid = 25; // 帖子类型，图文/视频/纯文字/转发 等
 }
-
-enum Gender{
-  MALE=0;
-  FEMALE=1;
-}
-
-message Dog {
-  string name=1;
-  string type=2;
-  Gender gender=3;
-}
-
-message House{
-  string address=1;
-  string family_name=2;
-  Person owner=3;
-  Dog watcher=4;
-}
