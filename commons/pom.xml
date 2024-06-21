@@ -107,7 +107,6 @@
             <version>1.0.1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/io.protostuff/protostuff-parser -->
         <dependency>
             <groupId>io.protostuff</groupId>
             <artifactId>protostuff-parser</artifactId>
